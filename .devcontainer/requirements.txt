@@ -1,0 +1,4 @@
+ipykernel
+ipywidgets
+
+-r ../requirements.txt

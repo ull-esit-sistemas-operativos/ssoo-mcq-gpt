@@ -1,0 +1,3 @@
+env_colab_pass
+farm-haystack[colab,file-conversion]
+markdownify

@@ -1,0 +1,35 @@
+::001 Sistema informático (Recursos y control)::
+¿Cuál de las siguientes afirmaciones describe mejor las funciones del sistema operativo desde la perspectiva del sistema informático?
+{¿Cuál de las siguientes afirmaciones sobre los algoritmos de planificación de colas multinivel realimentadas es más acertada?
+~%-33.333%El sistema operativo realiza trabajos directamente útiles para los usuarios y gestiona los recursos de hardware, pero no los de software.
+=El sistema operativo es el encargado de gestionar los recursos computacionales y controlar la ejecución de los programas de usuario.
+~%-33.333%El sistema operativo es un programa que se ejecuta ocasionalmente en el ordenador y aumentar la eficiencia de la CPU.
+~%-33.333%El sistema operativo solo es responsable de la gestión de la memoria y del almacenamiento.
+}
+
+::006 Librería del sistema::
+¿Cuál es la función principal de la librería del sistema?
+{
+~%-33.333%Proporciona instrucciones en lenguaje ensamblador para las llamadas al sistema.
+~%-33.333%Permite a la librería estándar acceder directamente a las instrucciones de la CPU.
+=Es responsable de realizar las llamadas al sistema necesarias cuando los programas invocan funciones de la librería del sistema.
+~%-33.333%Controla el acceso a los servicios del sistema operativo, impidiendo que los programas realicen llamadas al sistema directamente.
+}
+
+::010 Comunicación - Orientada a flujos::
+¿Cuál de las siguientes afirmaciones describe mejor la comunicación orientada a flujos?
+{
+~%-33.333%Los procesos leen un número fijo de bytes, donde solo puede haber un mensaje completo.
+=Los procesos leen un número arbitrario de bytes, donde puede haber parte de un mensaje o varios mensajes.
+~%-33.333%Los procesos solo pueden leer mensajes de tamaño fijo, lo que facilita la implementación en el sistema operativo.
+~%-33.333%Los procesos solo pueden leer mensajes de un tamaño predefinido por el sistema operativo.
+}
+
+::010 Comunicación Sincronicidad::
+¿Cuál de las siguientes afirmaciones es más acertada en relación a la comunicación entre procesos?
+{
+~%-33.333%En las operaciones asíncronas, tanto el transmisor como el receptor siempre se bloquean.
+~%-33.333%En una operación de recepción asíncrona, si la cola de mensajes está llena, el proceso receptor se bloquea.
+~%-33.333%Las operaciones síncronas no permiten que el transmisor y receptor sean bloqueados de manera totalmente independiente.
+=En una operación de envío asíncrona, si la cola de mensajes está llena, el proceso transmisor no se bloquea.
+}
